@@ -1,8 +1,8 @@
 /*This Code is for the TRANSMITTER*/
 
-#define ON 14
-#define OFF 12
-#define AUTO 16
+#define ON 5    //Edit these pins according to your board
+#define OFF 6
+#define AUTO 7    //Pulling Pin 7 low sends ON/OFF signals every 1 second
 
 void setup() {
   // put your setup code here, to run once:
